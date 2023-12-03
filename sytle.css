@@ -13,6 +13,10 @@ padding: 2rem 15rem 10rem;
  max-width: 100%;
  
 }
+body{
+    background: #f1f1f1 url('istockphoto-1407411558-1024x1024.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 .hero_box1{
     margin-left: 0%;
 }
@@ -118,7 +122,7 @@ gap: 45rem;
 }
 .empty{
   border: 2px solid #3882f6;
-  padding: 5rem .3rem;
+  padding: 2rem .3rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
@@ -201,4 +205,8 @@ gap: 45rem;
 .copy_symboll{
  font-size: 1.4rem;
  color: #3882f6;
+}
+.img{
+    width: 100%;
+    height: auto;
 }
