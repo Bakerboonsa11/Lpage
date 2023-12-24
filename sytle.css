@@ -14,7 +14,7 @@ padding: 2rem 15rem 10rem;
  
 }
 body{
-    background: #f1f1f1 url('istockphoto-1407411558-1024x1024.jpg') no-repeat center fixed;
+    background: #f1f1f1 url('istockphoto-1466454464-170667a.webp') no-repeat center fixed;
     background-size: cover;
 }
 .hero_box1{
@@ -25,6 +25,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 45rem;
+max-height: 100%;
 }
 .logo{
     font-size: 1.4rem;
@@ -65,12 +66,7 @@ gap: 45rem;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-.last_para{
-    color: #fff;
-    margin-left: 0;
-    padding: 7rem;
-    background-color: gray;
-}
+
 .signup{
     padding: 4px 17px;
     /* border: 2px solid #fff; */
@@ -78,11 +74,12 @@ gap: 45rem;
     text-decoration: none;
     border-radius: 2px;
     color: #fff;
+    
     font-weight: 900;
    
 }
 .signupbox{
-    margin-top: 13px;
+    margin-top: 2rem;
     
     
 }
@@ -119,12 +116,16 @@ gap: 45rem;
     align-items: center;
     justify-content: space-between;
     gap: 1.4rem;
+    max-width: 100%;
 }
 .empty{
   border: 2px solid #3882f6;
   padding: 2rem .3rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
+}
+.empty_part_container{
+    max-width: 100%;
 }
 .empty_content_box{
     color-scheme: grey;
@@ -209,4 +210,7 @@ gap: 45rem;
 .img{
     width: 100%;
     height: auto;
+}
+.flx-img{
+    border-radius: 12px;
 }
