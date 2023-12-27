@@ -5,17 +5,13 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-image: url("https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3 fDB8MHxzZWFyY2h8MTF8fHB1cnBsZSUyMGNvbG9yJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D"); */
-    /* background-image: url("istockphoto-1134068329-612x612.jpg"); */
     background-size: cover;
     background-position: center;
 }
 .container{
     width: 70rem;
     height: auto;
-    /* background-color: purple; */
     margin: 0 auto;
-    /* background-image: url("https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3 fDB8MHxzZWFyY2h8MTF8fHB1cnBsZSUyMGNvbG9yJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D"); */
     background-size: cover;
     background-position: center;
 
@@ -36,9 +32,8 @@ body{
 .icon {
     transform: rotate(-45deg);
     font-size: 2rem;
-    
-   
 }
+
 .icon:hover{
     transform: rotate(90deg);
     font-size: 2rem;
@@ -53,8 +48,6 @@ body{
     margin-right: 1rem;
     background-color: transparent;
     box-shadow:  0 0px 5px 0.2px rgba(0, 0, 0, 0.5);
-    
-    /* color: #fff; */
 }
 .btn1:hover{
     border: none;
@@ -65,7 +58,7 @@ body{
     background-color:#E9B824;
     color: #fff;
     box-shadow: none;
-    /* color: #fff; */
+   
 }
 .btn2{
     border: none;
@@ -84,27 +77,22 @@ body{
     color: #fff;
     animation: animate 5s ease-in;
 }
-/* section flex */
+
 .first_flex{
     border: 3px solid #E9B824;
     padding: 1rem;
-    border-radius: 10px;
-   
+    border-radius: 10px;  
     box-shadow:  0 0px 15px 0.2px rgba(0, 0, 0, 0.5);
     margin-bottom: 4rem;
-    /* box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.5); */
-    /* box-shadow:  0px 5px 2px 1px hsla(316, 83%, 42%, 0.9); */
+ 
 }
 .text_part{
-    /* background-color: #610C9F;  */
-  /* color: #fff; */
     margin-right: 1.5rem;
     padding-top: 4rem 2rem;
 }
 
 
 .img{
-   /* max-width: 100%;  */
     height: auto;
     margin-right: 0;
     background-color: transparent;
@@ -146,8 +134,7 @@ body{
     padding: 5px;
     margin: 3rem 1rem;
     background-color:lightgrey;
-    /* margin-right: 1rem; */
-    /* background-color: transparent;  */
+   
 }
 .btn3:hover{
     border: none;
@@ -158,8 +145,7 @@ body{
     padding: 5px;
     margin: 3rem 1rem;
     background-color: transparent;
-    /* margin-right: 1rem; */
-    /* background-color: transparent;  */
+  
 }
 .btn4{
     border: #fff;
@@ -197,8 +183,6 @@ body{
     margin-right: 10PX;
     background-color: #E9B824;
     border-radius: 12px;
-    /* box-shadow:  0 0px 7px 0.2px rgba(0, 0, 0, 0.5); */
-    /* box-shadow:  0 0px 7px 0.2px #e9b824ee; */
     box-shadow: 1px 0px 7px 2px rgba(233, 184, 36, 0.9);
    
    
@@ -229,24 +213,21 @@ body{
    
 }
 .card_container {
-    /* padding: 9rem 3rem; */
     margin-bottom: 4rem;
- 
-    /* background-color: aqua; */
     margin-left: 30rem;
     padding: 0;
 }
+
 .last_promotion{
     text-align: center;
     font-size: 1.4rem;
     color: #333;
     border: none;
-    /* box-shadow:  0 0px 15px 4px rgba(0, 0, 0, 0.5); */
+   
 }
 
 @media screen and (max-width: 900px) {
     .cardme{
-       /* background-color: aqua; */
        display: block;
        width: 100%;
     }
