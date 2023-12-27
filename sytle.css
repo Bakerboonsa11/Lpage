@@ -36,13 +36,13 @@ body{
 .icon {
     transform: rotate(-45deg);
     font-size: 2rem;
-    animation: animate 5s ease-in;
+    
    
 }
 .icon:hover{
     transform: rotate(90deg);
     font-size: 2rem;
-   
+   animation: animate 5s ease-in;
    
 }
 .btn1{
@@ -82,6 +82,7 @@ body{
     padding:5px 15px;
     background: linear-gradient(to  right, #DB005B, #E9B824);
     color: #fff;
+    animation: animate 5s ease-in;
 }
 /* section flex */
 .first_flex{
@@ -115,7 +116,8 @@ body{
 @keyframes animate{
     20% {
         opacity: 0%;
-        transform: rotate(20deg);
+        transform: rotate(0deg);
+        
     }
     40% {
         opacity: 30%;
