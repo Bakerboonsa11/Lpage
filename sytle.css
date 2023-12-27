@@ -36,6 +36,7 @@ body{
 .icon {
     transform: rotate(-45deg);
     font-size: 2rem;
+    animation: animate 5s ease-in;
    
 }
 .icon:hover{
@@ -52,6 +53,7 @@ body{
     margin-right: 1rem;
     background-color: transparent;
     box-shadow:  0 0px 5px 0.2px rgba(0, 0, 0, 0.5);
+    
     /* color: #fff; */
 }
 .btn1:hover{
@@ -107,7 +109,31 @@ body{
     background-color: transparent;
     margin-top: 2rem;
     border-radius: 22px;
+    animation: animate 5s ease-in;
     
+}
+@keyframes animate{
+    20% {
+        opacity: 0%;
+        transform: rotate(20deg);
+    }
+    40% {
+        opacity: 30%;
+        transform: rotate(45deg);
+    }
+    60% {
+        opacity: 60%;
+        transform: rotate(20deg);
+    }
+    80% {
+        opacity: 90%;
+        transform: rotate(90deg);
+    }
+    100% {
+        opacity: 100%;
+        transform: rotate(360deg);
+    }
+
 }
 .btn3{
     border: none;
