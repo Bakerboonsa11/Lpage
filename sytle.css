@@ -20,8 +20,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .4rem 2rem;
-    margin-bottom: 2rem;
+    padding: 4px 20px;
+    margin-bottom: 20px;
     position: sticky;
     top: 0px;
 }
@@ -47,7 +47,7 @@ body{
     border: 1px solid lightgray;
     border-radius: 7px;
     padding: 5px;
-    margin-right: 1rem;
+    margin-right: 10px;
     background-color: transparent;
     box-shadow:  0 0px 5px 0.2px rgba(0, 0, 0, 0.5);
 }
@@ -56,7 +56,7 @@ body{
     border: 1px solid lightgray;
     border-radius: 7px;
     padding: 5px;
-    margin-right: 1rem;
+    margin-right: 10px;
     background-color:#E9B824;
     color: #fff;
     box-shadow: none;
@@ -82,15 +82,15 @@ body{
 
 .first_flex{
     border: 3px solid #E9B824;
-    padding: 1rem;
+    padding: 10px;
     border-radius: 10px;  
     box-shadow:  0 0px 15px 0.2px rgba(0, 0, 0, 0.5);
-    margin-bottom: 4rem;
+    margin-bottom: 40px;
  
 }
 .text_part{
     margin-right: 1.5rem;
-    padding-top: 4rem 2rem;
+    padding-top: 40px 20px;
 }
 
 
@@ -98,7 +98,7 @@ body{
     height: auto;
     margin-right: 0;
     background-color: transparent;
-    margin-top: 2rem;
+    margin-top: 20px;
     border-radius: 22px;
     animation: animate 5s ease-in;
     
@@ -134,7 +134,7 @@ body{
     width: 13rem;
     text-align: center;
     padding: 5px;
-    margin: 3rem 1rem;
+    margin: 30px 10px;
     background-color:lightgrey;
    
 }
@@ -145,7 +145,7 @@ body{
     width: 13rem;
     text-align: center;
     padding: 5px;
-    margin: 3rem 1rem;
+    margin: 30px 10px;
     background-color: transparent;
   
 }
@@ -157,15 +157,17 @@ body{
    border-radius: 7px;
    color: #fff;
    background-color: black;
+  
 }
 .btn4:hover{
     border: #fff;
    padding-top: 5px;
    padding-bottom: 5px;
-   margin-left: 1rem;
+   margin-left: 10px;
    border-radius: 7px;
    color: #000;
    background-color:transparent;
+  
 }
 .STRYD{
     color: #E9B824;
@@ -215,8 +217,8 @@ body{
    
 }
 .card_container {
-    margin-bottom: 4rem;
-    margin-left: 30rem;
+    margin-bottom: 40px;
+    margin-left: 300px;
     padding: 0;
 }
 
@@ -251,3 +253,10 @@ body{
      display: none;
     }
   }
+  @media screen and (max-width: 385px) {
+   
+    .img{
+     width: 300px;
+         
+   
+  }}
