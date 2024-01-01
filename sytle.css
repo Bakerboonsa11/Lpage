@@ -101,6 +101,7 @@ body{
     background-color: transparent;
     margin-top: 20px;
     border-radius: 22px;
+   
     animation: animate 5s ease-in;
     
 }
@@ -261,3 +262,4 @@ body{
          
    
   }}
+
