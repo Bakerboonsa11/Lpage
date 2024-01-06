@@ -29,7 +29,7 @@ body{
 .logo{
     color:#E9B824;
     font-weight: 900;
-    letter-spacing: 2px;
+    letter-spacing: 1.9px;
  
 }
 .icon {
@@ -38,8 +38,7 @@ body{
 }
 
 .icon:hover{
-    transform: rotate(90deg);
-    font-size: 2rem;
+    
    animation: animate 5s ease-in;
    
 }
