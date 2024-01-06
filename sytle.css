@@ -52,11 +52,10 @@ body{
     box-shadow:  0 0px 5px 0.2px rgba(0, 0, 0, 0.5);
 }
 .btn1:hover{
-    border: none;
     border: 1px solid lightgray;
     border-radius: 7px;
     padding: 5px;
-    margin-right: 10px;
+    margin-right: 11px;
     background-color:#E9B824;
     color: #fff;
     box-shadow: none;
