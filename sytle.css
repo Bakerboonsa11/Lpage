@@ -261,4 +261,16 @@ body{
      width: 250px;
     
   }}
+  @media screen and (max-width: 267px) {
+   
+    .img{
+     width: 200px;
+    
+  }}
+  @media screen and (max-width:236 px) {
+   
+    .img{
+     width: 150px;
+    
+  }}
 
