@@ -255,4 +255,10 @@ body{
      width: 300px;
     
   }}
+  @media screen and (max-width: 320px) {
+   
+    .img{
+     width: 250px;
+    
+  }}
 
