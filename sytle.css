@@ -103,30 +103,7 @@ body{
     
     
 }
-@keyframes animate{
-    20% {
-        opacity: 0%;
-        transform: rotate(0deg);
-        
-    }
-    40% {
-        opacity: 30%;
-        transform: rotate(45deg);
-    }
-    60% {
-        opacity: 60%;
-        transform: rotate(20deg);
-    }
-    80% {
-        opacity: 90%;
-        transform: rotate(90deg);
-    }
-    100% {
-        opacity: 100%;
-        transform: rotate(360deg);
-    }
 
-}
 .btn3{
     border: none;
     border: 1px solid lightgray;
@@ -225,6 +202,31 @@ body{
     border: none;
    
 }
+@keyframes animate{
+    20% {
+        opacity: 0%;
+        transform: rotate(0deg);
+        
+    }
+    40% {
+        opacity: 30%;
+        transform: rotate(45deg);
+    }
+    60% {
+        opacity: 60%;
+        transform: rotate(20deg);
+    }
+    80% {
+        opacity: 90%;
+        transform: rotate(90deg);
+    }
+    100% {
+        opacity: 100%;
+        transform: rotate(360deg);
+    }
+
+}
+
 
 @media screen and (max-width: 900px) {
     .cardme{
@@ -260,14 +262,16 @@ body{
     .img{
      width: 250px;
     
-  }}
+  }
+ 
+}
   @media screen and (max-width: 267px) {
    
     .img{
      width: 200px;
     
   }}
-  @media screen and (max-width:236 px) {
+  @media screen and (max-width:236px) {
    
     .img{
      width: 150px;
