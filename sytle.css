@@ -131,6 +131,7 @@ body{
    border-radius: 7px;
    color: #fff;
    background-color: black;
+   animation: size_increse 4s ease-in;
   
 }
 .btn4:hover{
