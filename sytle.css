@@ -124,7 +124,7 @@ body{
   
 }
 .btn4{
-    border: #fff;
+   border: #fff;
    padding-top: 5px;
    padding-bottom: 5px;
    margin-left: 1rem;
@@ -223,6 +223,21 @@ body{
         transform: rotate(360deg);
     }
 
+}
+@keyframes size_increse{
+    
+from{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+to{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 1rem;
+    border-radius: 7px;
+}
 }
 
 
