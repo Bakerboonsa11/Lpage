@@ -200,6 +200,13 @@ body{
     border: none;
    
 }
+.copy{
+    font-size: calc(6px + 0.88vw);
+    margin-left: 2px;
+    color: #DB005B;
+}
+ /* animation part  */
+
 @keyframes animate{
     20% {
         opacity: 0%;
@@ -240,6 +247,7 @@ to{
 }
 }
 
+ /* media query */
 
 @media screen and (max-width: 900px) {
     .cardme{
@@ -264,6 +272,7 @@ to{
      display: none;
     }
   }
+
   @media screen and (max-width: 385px) {
    
     .img{
